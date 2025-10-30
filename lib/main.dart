@@ -15,7 +15,7 @@ class SignupAdventureApp extends StatelessWidget {
       title: 'Signup Adventure',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
-        //fontFamily: 'Helvetica',//
+        fontFamily: 'Helvetica',
       ),
       home: const WelcomeScreen(),
       debugShowCheckedModeBanner: false,

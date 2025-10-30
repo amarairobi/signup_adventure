@@ -39,24 +39,24 @@ class WelcomeScreen extends StatelessWidget {
               AnimatedTextKit(
                 animatedTexts: [
                   TypewriterAnimatedText(
-                    'Join The Adventure!',
-                    textStyle: const TextStyle(
-                      fontSize: 32,
+                    'Join The Adventure.',
+                    textStyle:  TextStyle(
+                      fontSize: 40,
                       fontWeight: FontWeight.bold,
-                      color: Colors.blue.color900,
+                      color: Colors.blue.shade900,
                     ),
                     speed: Duration(milliseconds: 100),
                   ),
                 ],
                 totalRepeatCount: 1,
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 5),
               const Text(
-                'Create your account and start your journey',
+                'create your account and embark on a cool journey!',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 16, color: Colors.grey),
               ),
-              const SizedBox(height: 50),
+              const SizedBox(height: 30),
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(
